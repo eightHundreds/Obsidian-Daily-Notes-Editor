@@ -5,7 +5,7 @@
     import { TFile, moment } from "obsidian";
     import DailyNote from "./DailyNote.svelte";
     import { inview } from "svelte-inview";
-    import { getAllDailyNotes, getDailyNote, createDailyNote, getDateFromFile } from 'obsidian-daily-notes-interface';
+    import { getAllDailyNotes, getDailyNote, createDailyNote, getDateFromFile } from '../../packages/obsidian-daily-notes-interface-main';
 
     export let plugin: DailyNoteViewPlugin;
     export let leaf: WorkspaceLeaf;

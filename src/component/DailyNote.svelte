@@ -32,7 +32,7 @@
         if(!(file instanceof TFile)) return;
         if(rendered) return;
 
-        title = file.basename;
+        title = file.displayName;
 
         [createdLeaf, dnEditor] = spawnLeafView(plugin, editorEl, leaf);
         createdLeaf.setPinned(true);

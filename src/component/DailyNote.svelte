@@ -31,7 +31,7 @@
     function showEditor() {
         if(!(file instanceof TFile)) return;
         if(rendered) return;
-
+        // @ts-ignore
         title = file.displayName;
 
         [createdLeaf, dnEditor] = spawnLeafView(plugin, editorEl, leaf);
